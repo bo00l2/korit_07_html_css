@@ -1,0 +1,8 @@
+/* 마지막 줄 제거 */
+ul > li:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+/* 첫 번째 줄 제거 (nth-child(1)로 고쳐써도 상관이 없겠다.*/
+/* ul > li:not(:first-child) {
+  border-top: 1px solid black;
+} */
